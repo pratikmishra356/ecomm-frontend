@@ -129,7 +129,7 @@ const Signup = () => {
             {successMessage()}
             {errorMessage()}
             {signUpForm()}
-           
+            
         </Base>
     )
 }
