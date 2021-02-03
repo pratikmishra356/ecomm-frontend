@@ -7,8 +7,8 @@ const Signin = () => {
 
     const [values, setValues] = useState({
         name:"",
-        email: "pratik@gmail.com",
-        password: "12345",
+        email: "",
+        password: "",
         error: "",
         success: false,
         loading: false,
@@ -135,9 +135,7 @@ const Signin = () => {
        {loadingMessage()}
        
        {signInForm()}
-        <p className="text-center">
-            {JSON.stringify(values)}
-        </p>
+       
         {performRedirect()}
         </Base>
     )

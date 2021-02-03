@@ -49,6 +49,9 @@ const Cart= () => {
                 
             </div>
             <div className="col-6">
+                <div>Default card number is : 4111 1111 1111 1111 
+                    <p>Type next month and year</p>
+                </div>
                 {products.length > 0 ?
                 (
                     <PaymentB products={products} setReload={setReload} />
