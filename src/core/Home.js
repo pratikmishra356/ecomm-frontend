@@ -57,7 +57,7 @@ export default function Home() {
                         
                         {categorys.map((category , index) => {
                             
-                            
+                            console.log(category)
                             const produ = products.filter(prod => prod.category === `https://ecomm-django.herokuapp.com/api/category/${category.id}/`)
                             
                             
