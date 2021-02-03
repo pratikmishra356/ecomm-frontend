@@ -39,7 +39,7 @@ const UserDashboard = () => {
                         {orders.map((order , index) => {
                             
                             
-                            if(order.user === `http://localhost:8000/api/user/${userId}/`)
+                            if(order.user === `https://ecomm-django.herokuapp.com/api//user/${userId}/`)
                             {
                                 return (
                             
